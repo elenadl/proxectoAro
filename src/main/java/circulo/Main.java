@@ -7,6 +7,10 @@ import java.text.DecimalFormat;
  * @author Elena Dopico
  */
 public class Main {
+    /**
+    * Método main
+    * @param args Argumentos de la línea de comandos 
+    */
     public static void main(String[] args) {
         Aro circulo = new Aro(37,43,2.5);
         String saida =
