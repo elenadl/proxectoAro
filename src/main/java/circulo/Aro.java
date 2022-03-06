@@ -5,7 +5,9 @@ package circulo;
  * @author Elena Dopico
  */
 public class Aro {
-    public static final double MINIMO = 0.0;
+
+    private static final double LIMITERADIO = 0.0;
+    public static final double MINIMO = LIMITERADIO;
 
     private int coordenadaX;
     private int coordenadaY;
